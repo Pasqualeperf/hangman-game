@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Mate+SC&display=swap');
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Mate SC', serif;
+}
+
+#theTitle {
+    text-align: center;
+    font-size: 4rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+#wordCont {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#question {
+    text-align: center;
+}
+
+.lifeCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lifeText {
+    height: 20px;
+}
+
+.life {
+    width: 20px;
+    height: 20px;
+    background-color: #ff000f;
+    margin: 10px;
+}
+
+
+#theForm {
+    text-align: center;
+}
+
+.removed {
+    display: none;
+}

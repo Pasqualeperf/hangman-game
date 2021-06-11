@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Hangman</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h1 id="theTitle">Hangman</h1>
+        <h2>The word is:</h2>
+        <div id="wordCont">
+            <span id="theWord"></span>
+        </div>
+        <p id="question"></p>
+        <div class="lifeCont">
+            <p class="lifeText">Lifes:</p>
+            <p class="life"></p>
+            <p class="life"></p>
+            <p class="life"></p>
+        </div>
+        <form id="theForm" onsubmit="hangman(); return false;">
+            <input name="answer" id="answer" type="text">
+            <button type="submit">Go!</button>
+        </form>
+    </div>
+
+    <script src="./app/hang-man.js"></script>
+</body>
+</html>

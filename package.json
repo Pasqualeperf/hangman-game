@@ -1,0 +1,22 @@
+{
+  "name": "hangman-game",
+  "version": "1.0.0",
+  "description": "Hangman is a simple game that revolves around guessing a randomly chosen word.",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pasqualeperf/hangman-game.git"
+  },
+  "author": "Pasquale Perfetto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pasqualeperf/hangman-game/issues"
+  },
+  "homepage": "https://github.com/Pasqualeperf/hangman-game#readme",
+  "devDependencies": {
+    "jest": "^27.0.3"
+  }
+}
