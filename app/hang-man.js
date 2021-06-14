@@ -8,7 +8,6 @@ Guess the word with 3 lifes!
 
 */
 
-const wordTag = document.querySelector('#theWord');
 const question = document.querySelector('#question');
 const form = document.querySelector('#theForm');
 const lifes = document.querySelectorAll('.life');
@@ -66,7 +65,6 @@ let attempts = 2;
 
 function hangman() {
     let textNow = wordTag.innerHTML;
-    console.log(textNow);
     let answer = form['answer'].value.toUpperCase();
     let reveal = '';
 
@@ -114,3 +112,5 @@ function hangman() {
     }
 
 }
+
+module.exports = hangman;
