@@ -8,6 +8,7 @@ Guess the word with 3 lifes!
 
 */
 
+const wordTag = document.querySelector('#theWord');
 const question = document.querySelector('#question');
 const form = document.querySelector('#theForm');
 const lifes = document.querySelectorAll('.life');
